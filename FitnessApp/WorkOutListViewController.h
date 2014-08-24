@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WorkOutListViewController.h
 //  FitnessApp
 //
 //  Created by DONGMIN LEE on 23/08/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface WorkOutListViewController : UITableViewController
 
 @end

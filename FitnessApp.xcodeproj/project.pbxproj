@@ -22,6 +22,8 @@
 		6D541ED919A877920046EDDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D541EB819A877920046EDDC /* UIKit.framework */; };
 		6D541EE119A877920046EDDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D541EDF19A877920046EDDC /* InfoPlist.strings */; };
 		6D541EE319A877920046EDDC /* FitnessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D541EE219A877920046EDDC /* FitnessAppTests.m */; };
+		6D541EEE19A8782A0046EDDC /* WorkOutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D541EED19A8782A0046EDDC /* WorkOutListViewController.m */; };
+		6D541EEF19A8782A0046EDDC /* WorkOutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D541EED19A8782A0046EDDC /* WorkOutListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		6D541EDE19A877920046EDDC /* FitnessAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessAppTests-Info.plist"; sourceTree = "<group>"; };
 		6D541EE019A877920046EDDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D541EE219A877920046EDDC /* FitnessAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessAppTests.m; sourceTree = "<group>"; };
+		6D541EEC19A8782A0046EDDC /* WorkOutListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkOutListViewController.h; sourceTree = "<group>"; };
+		6D541EED19A8782A0046EDDC /* WorkOutListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkOutListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				6D541EC319A877920046EDDC /* AppDelegate.h */,
 				6D541EC419A877920046EDDC /* AppDelegate.m */,
 				6D541EC619A877920046EDDC /* Main_iPhone.storyboard */,
+				6D541EEC19A8782A0046EDDC /* WorkOutListViewController.h */,
+				6D541EED19A8782A0046EDDC /* WorkOutListViewController.m */,
 				6D541EC919A877920046EDDC /* Main_iPad.storyboard */,
 				6D541ECC19A877920046EDDC /* ViewController.h */,
 				6D541ECD19A877920046EDDC /* ViewController.m */,
@@ -253,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D541EEE19A8782A0046EDDC /* WorkOutListViewController.m in Sources */,
 				6D541ECE19A877920046EDDC /* ViewController.m in Sources */,
 				6D541EC519A877920046EDDC /* AppDelegate.m in Sources */,
 				6D541EC119A877920046EDDC /* main.m in Sources */,
@@ -263,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D541EEF19A8782A0046EDDC /* WorkOutListViewController.m in Sources */,
 				6D541EE319A877920046EDDC /* FitnessAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
